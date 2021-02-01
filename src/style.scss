@@ -1,0 +1,35 @@
+$textcentered : center;
+
+h1{
+    color: red;
+    font-size: 70px;
+    text-align: $textcentered;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    width: 25%;
+    margin-right: 2px;
+    margin-bottom: 20px;
+}
+
+.card-header{
+    text-align: $textcentered;
+    font-size: 45px !important;
+}
+
+.card-body{
+    text-align: $textcentered;
+    font-size: 25px;
+}
+
+.cardbuttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
